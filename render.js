@@ -170,7 +170,7 @@ function Command(input, params, outputfile) {
     }
   });
 
-  output.format = output.format.toLowerCase().replace('jpg', 'jpeg');
+  output.format = 'pdf';
 
   // output
   params.last(/^([0-9.]+)x$/i, function(match) {
